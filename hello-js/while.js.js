@@ -3,7 +3,9 @@ console.log("1. Ice Americano");
 console.log("2. Cafe Latte");
 console.log("3. Cappuccino");
 console.log("4. Tea");
+
 var count = 0;
+
 while( count <3 ){
 
 var choice = parseInt( prompt("메뉴를 선택해 주세요"));
@@ -29,4 +31,5 @@ switch( choice ){
 }
 count++;
 	}
+	
 	console.log("안녕히 가십시오.");
